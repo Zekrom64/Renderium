@@ -1,0 +1,30 @@
+{
+	"shaders": [
+		{
+			"type": "vertex",
+			"sources": [
+				"common.glsl",
+				"plain.vert"
+			]
+		},
+		{
+			"type": "fragment",
+			"sources": [
+				"common.glsl",
+				"plain.frag"
+			]
+		}
+	],
+	"uniforms": [
+		{
+			"name": "uGlobals",
+			"type": "uniform_buffer",
+			"binding": 0
+		},
+		{
+			"name": "uTexture",
+			"type": "texture",
+			"binding": 0
+		}
+	]
+}

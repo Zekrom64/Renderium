@@ -125,10 +125,21 @@
 		<artifactId>org.eclipse.jdt.annotation</artifactId>
 		<version>2.2.600</version>
 	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>${slf4j.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.luaj</groupId>
+		<artifactId>luaj-jse</artifactId>
+		<version>3.0.1</version>
+	</dependency>
   </dependencies>
   <properties>
   	<lwjgl.version>3.3.0</lwjgl.version>
 	<joml.version>1.10.3</joml.version>
 	<json.version>20211205</json.version>
+	<slf4j.version>1.7.36</slf4j.version>
   </properties>
 </project>
